@@ -25,7 +25,7 @@ gd
   cd $SOURCE
   mkdir chef/cookbooks/cookbook1/recipes -p
   touch chef/cookbooks/cookbook1/recipes/default.rb
-  echo "name 'cookbook1'" > chef/cookbooks/cookbook1/metadata.rb
+  echo "name 'cookbook1" > chef/cookbooks/cookbook1/metadata.rb
   $GIT add . -A
   $GIT commit -m "Add cookbook1"
 )
