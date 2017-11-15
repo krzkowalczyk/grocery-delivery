@@ -32,10 +32,10 @@ module GroceryDelivery
     lockfile '/var/lock/subsys/grocery_delivery'
     master_path '/var/chef/grocery_delivery_work'
     repo_url nil
+    branch 'master'
     reponame 'ops'
     cookbook_paths ['chef/cookbooks']
     role_path 'chef/roles'
-    role_type 'rb'
     databag_path 'chef/databags'
     rev_checkpoint 'gd_revision'
     knife_config '/root/.chef/knife.rb'

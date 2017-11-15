@@ -258,7 +258,7 @@ else
   end
   action('Cloning repo')
   unless GroceryDelivery::Config.dry_run
-    repo.checkout(GroceryDelivery::Config.repo_url)
+    repo.checkout(GroceryDelivery::Config.repo_url, GroceryDelivery::Config.branch)
   end
 end
 
